@@ -1,0 +1,9 @@
+USE seundtxzr5uitvd5;
+
+CREATE TABLE burgers (
+  id INT NOT NULL AUTO_INCREMENT,
+  burger_name VARCHAR (200) NOT NULL,
+  devoured BOOLEAN DEFAULT false,
+  date TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  PRIMARY KEY (id)
+);
